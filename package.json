@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "/show-time/",
+  "homepage": "https://localhost-in.github.io/show-time/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
