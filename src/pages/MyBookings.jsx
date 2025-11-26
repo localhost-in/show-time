@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const MyBookings = () => {
-  return (
-    <div>MyBookings</div>
-  )
-}
+  const currency = import.meta.env.VITE_CURRENCY;
 
-export default MyBookings
+  const [bookings,setBookings] = useState([])
+  const [isLoading,setIsLoading] = useState(true)
+
+  
+  return (
+  <div>
+
+  </div>
+  )
+};
+
+export default MyBookings;
